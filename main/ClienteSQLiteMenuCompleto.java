@@ -80,7 +80,7 @@ public class ClienteSQLiteMenuCompleto {
 	}	
 
 	public void getArticulos(){
-		// TODO: Mostrar los distintos artículos de las sanciones ordenados de forma ascentente
+		// TODO: Mostrar los distintos artículos de las sanciones ordenados de forma ascendente
 		String sql = "SELECT DISTINCT articulo FROM sanciones ORDER BY articulo asc;";
         try {
             Statement stmt = connection.createStatement();
